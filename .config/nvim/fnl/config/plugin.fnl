@@ -35,6 +35,7 @@
   ;; theme
   :projekt0n/github-nvim-theme {:mod :theme}
   :kyazdani42/nvim-web-devicons {}
+  :whatyouhide/vim-gotham {}
 
   ;; status line
   :nvim-lualine/lualine.nvim {:mod :lualine}
@@ -69,4 +70,9 @@
                                 :hrsh7th/cmp-nvim-lsp
                                 :hrsh7th/cmp-vsnip
                                 :PaterJason/cmp-conjure]
-                     :mod :cmp})
+                     :mod :cmp}
+
+  ;; tree
+  :kyazdani42/nvim-tree.lua {:requires [:kyazdani42/nvim-web-devicons]
+                             :mod :nvim-tree
+                             :tag :nightly})
