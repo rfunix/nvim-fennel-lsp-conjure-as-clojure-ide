@@ -75,4 +75,7 @@
   ;; tree
   :kyazdani42/nvim-tree.lua {:requires [:kyazdani42/nvim-web-devicons]
                              :mod :nvim-tree
-                             :tag :nightly})
+                             :tag :nightly}
+  :airblade/vim-gitgutter {}
+  :tpope/vim-fugitive {}
+  :luochen1990/rainbow {:mod :rainbow})
